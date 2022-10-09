@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Scottish Highlands</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html {
+        font-family: "Rubik", sans-serif;
+        color: #444;
+      }
+
+      .container {
+        margin: 0 auto;
+        width: 1200px;
+      }
+
+      header {
+        height: 100vh;
+        position: relative;
+        background-image: linear-gradient(
+            rgba(34, 34, 34, 0.06),
+            rgba(34, 34, 34, 0.06)
+          ),
+          url(scotland.jpg);
+        background-size: cover;
+        color: #fff;
+      }
+
+      nav {
+        font-size: 20px;
+        font-weight: 700;
+        display: flex;
+        justify-content: space-between;
+        padding: 32px;
+      }
+
+      .header-container {
+        width: 1200px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .header-container-inner {
+        width: 50%;
+      }
+
+      h1 {
+        font-size: 52px;
+        margin-bottom: 32px;
+        line-height: 1.05;
+      }
+
+      p {
+        font-size: 20px;
+        line-height: 1.6;
+        margin-bottom: 48px;
+      }
+
+      .btn:link,
+      .btn:visited {
+        font-size: 20px;
+        font-weight: 600;
+        background-color: #797441b0;
+        color: #fff;
+        text-decoration: none;
+        display: inline-block;
+        padding: 16px 32px;
+        border-radius: 9px;
+      }
+
+      h2 {
+        font-size: 44px;
+        margin-bottom: 48px;
+      }
+
+      section {
+        padding: 96px 0;
+        background-color: #f7f7f7;
+      }
+
+      .feature-icon {
+        color: #f4f4f4;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div>
+          <ion-icon class="features-icon" name="map-outline"></ion-icon>
+        </div>
+        <div>NAVIGATION</div>
+      </nav>
+
+      <div class="header-container">
+        <div class="header-container-inner">
+          <h1>The Scottish Highlands</h1>
+          <p>
+            Slow down and take the time to explore the many hidden gems of the
+            Scottish Highlands.
+          </p>
+          <a href="#" class="btn">See all things to do</a>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <h2>Unique Experiences in the Highlands</h2>
+        <p>
+          Between city, countryside and coast, the Highlands offers an abundance
+          of things to see and do, from mythical castles and Highland music, to
+          dramatic mountains, thrilling adventures and rare wildlife. You can
+          easily get to and around the Highlands using the extensive network of
+          public transport and roads. The region may appear remote, but this
+          beautiful part of Scotland is very accessible and is certainly worth
+          the journey. To work out your travel plans, decide which area of the
+          Highlands you want to visit, and you can then find information on
+          travelling by car, bus, train or even flying to Inverness in our handy
+          online brochures. They will even help you work out how to get around
+          the area, so you can really start planning that Highland adventure.
+        </p>
+      </div>
+    </section>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </body>
+</html>
